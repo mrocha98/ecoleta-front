@@ -47,15 +47,10 @@ Em seguida, execute os comandos:
 git clone https://github.com/mrocha98/ecoleta-front #clona o repositório para sua máquina
 cd ecoleta-front #entra no diretório do repositório
 yarn install #instala as dependências
-```
-
-Agora é necessário que você crie um arquivo .env na raiz do projeto, e preencha com as informações do seu ambiente de desenvolvimento. Confira o arquivo [.env.example](https://github.com/mrocha98/ecoleta-front/blob/master/.env.example).
-
-Após preencher, execute:
-
-```bash
 yarn start #executa a aplicação em modo de desenvolvimento
 ```
+
+Diferente do back-end, aqui não há um arquivo .env, pois o template Create React App já configura isso por baixo dos panos.
 
 Se tudo ocorreu bem, seu navegador padrão abrirá uma nova guia no endereço `localhost:3000`.
 
