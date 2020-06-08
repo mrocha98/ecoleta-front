@@ -15,3 +15,7 @@ export interface IBGEUFResponse {
 export interface IBGECityResponse {
   nome: string;
 }
+
+export interface DropzoneProps {
+  onFileUploaded: (file: File) => void;
+}

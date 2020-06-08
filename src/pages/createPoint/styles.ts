@@ -118,6 +118,11 @@ export const ItemsGrid = styled.div`
   gap: 16px;
   list-style: none;
 
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
   li {
     background: #f5f5f5;
     border: 2px solid #f5f5f5;
@@ -160,7 +165,7 @@ export const Button = styled.button`
   font-weight: bold;
   font-size: 16px;
   border: 0 !important;
-  align-self: flex-end;
+  align-self: center;
   margin-top: 40px;
   transition: background-color 0.2s;
   cursor: pointer;
